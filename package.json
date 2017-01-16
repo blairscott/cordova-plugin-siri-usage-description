@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-siri-usage-description",
+  "version": "1.0.0",
+  "description": "Cordova plugin for setting the NSSiriUsageDescription setting in a Cordova based application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blairscott/cordova-plugin-siri-usage-description.git"
+  },
+    "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "security",
+    "permissions",
+    "nssiriusagedescription",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Blair Scott",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/blairscott/cordova-plugin-siri-usage-description/issues"
+  },
+  "homepage": "https://github.com/blairscott/cordova-plugin-siri-usage-description#readme"
+}

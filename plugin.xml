@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-ios-speech-recognition-permission" version="1.0.4" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>iOS NSSiriUsageDescription Permissions</name>
+    <author>Blair Scott</author>
+    <description>Cordova / PhoneGap Plugin Permission Settings for NSSiriUsageDescription in iOS 10 by adding a declaration to the Info.plist file</description>
+    <keywords>cordova, ios, app, security, permissions, nsspeechrecognitionusagesescription</keywords>
+    <license>Unlicensed</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+      <config-file target="*-Info.plist" parent="NSSiriUsageDescription">
+          <string>This app will send information to Siri, for more information, consult the application's information</string>
+      </config-file>
+    </platform>
+</plugin>
